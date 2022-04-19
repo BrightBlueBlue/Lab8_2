@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 name_val=name.getText().toString();
                 num_val=Integer.parseInt(number.getText().toString());
                 myData.AddEmployee(id_val,name_val,num_val);
-                Toast.makeText(MainActivity.this, "Successful Add", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "yay Successful Add", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -61,18 +61,18 @@ public class MainActivity extends AppCompatActivity {
                 builder.setTitle("All Employee");
                 builder.setMessage(buffer.toString());
                 builder.show();
-                Toast.makeText(MainActivity.this,"Successful View",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"yay Successful View",Toast.LENGTH_LONG).show();
             }
         });
 
-
+// just a comment
 
         //delete button lister
         delete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 myData.DeleteEmployee(id_val);
-                Toast.makeText(MainActivity.this,"Successful Delete",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"yay Successful Delete",Toast.LENGTH_LONG).show();
             }
         });
     }
