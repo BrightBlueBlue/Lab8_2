@@ -65,7 +65,7 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
-
+// just a comment
 
         //delete button lister
         delete.setOnClickListener(new View.OnClickListener() {
