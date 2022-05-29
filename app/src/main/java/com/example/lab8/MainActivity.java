@@ -38,7 +38,7 @@ public class MainActivity extends AppCompatActivity {
                 name_val=name.getText().toString();
                 num_val=Integer.parseInt(number.getText().toString());
                 myData.AddEmployee(id_val,name_val,num_val);
-                Toast.makeText(MainActivity.this, "yapasdfasdfdspy Successful Add", Toast.LENGTH_SHORT).show();
+                Toast.makeText(MainActivity.this, "okay Successful Add", Toast.LENGTH_SHORT).show();
             }
         });
 
@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 builder.setTitle("All Employee");
                 builder.setMessage(buffer.toString());
                 builder.show();
-                Toast.makeText(MainActivity.this,"hahsdfasdfahha Successful View",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"okay horray! Successful View",Toast.LENGTH_LONG).show();
             }
         });
 
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 myData.DeleteEmployee(id_val);
-                Toast.makeText(MainActivity.this,"hahasdfasfdahah Successful Delete",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"yup Successful Delete",Toast.LENGTH_LONG).show();
             }
         });
     }
