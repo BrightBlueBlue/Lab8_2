@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                 builder.setTitle("All Employee");
                 builder.setMessage(buffer.toString());
                 builder.show();
-                Toast.makeText(MainActivity.this,"kk  Successful View",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"no problem Successful View",Toast.LENGTH_LONG).show();
             }
         });
 
@@ -72,7 +72,7 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 myData.DeleteEmployee(id_val);
-                Toast.makeText(MainActivity.this,"kk Successful Delete",Toast.LENGTH_LONG).show();
+                Toast.makeText(MainActivity.this,"no problem Successful Delete",Toast.LENGTH_LONG).show();
             }
         });
     }
